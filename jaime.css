@@ -1,0 +1,79 @@
+body{
+    
+    background-image: url(./img/fondo4.jpg);
+    background-position: center;
+    
+}
+h1{
+
+    font-size: 50px;
+    text-align: center;
+    color: blue;
+
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+    margin-top: 20px;
+}
+.travel-image {
+    width: 200px;  
+    height: 200px;
+    border-radius: 10px; 
+    transition: transform 0.3s; 
+    cursor: pointer;
+}
+
+.travel-image:hover {
+    transform: scale(1.1); 
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end; 
+    background-color: #333333; 
+    padding: 10px 20px 10px 10px; 
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 30px; 
+}
+
+.navbar a:last-child {
+    margin-right: 1; 
+}
+
+.navbar a:hover {
+    background-color: #0b2947;
+}
+.content {
+    max-width: 800px;
+   
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding-bottom: 60px;
+}
